@@ -11,3 +11,11 @@
  */
 
 // Add your code below
+func levelCost(heights : [Int], maxJump : Int) -> Int {
+    var points = 0
+    for i in stride(from: 0, through: heights.count, by: 1) {
+        if (i < heights.count - 1) {
+            // finish code
+    }
+    return points
+}
